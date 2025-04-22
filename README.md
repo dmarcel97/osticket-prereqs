@@ -69,9 +69,9 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket” ***This s
 
 -Continue with the osTicket setup in the browser by clicking Continue. At this stage, name your helpdesk and provide a default email address that will receive emails from customers.
 
--Next, install HeidiSQL from the “osTicket-Installation-Files” folder. Open HeidiSQL and create a new session using the credentials root/root. After successfully connecting to the session, create a new database named osTicket.
+-Next, install HeidiSQL from the “osTicket-Installation-Files” folder. Open HeidiSQL and create a new session using your preferred credentials. After successfully connecting to the session, create a new database named osTicket.
 
--Finally, return to the osTicket browser setup. Enter the database information: MySQL Database: osTicket, MySQL Username: root, and MySQL Password: root. Click Install Now! to complete the installation process.
+-Finally, return to the osTicket browser setup. Enter the database information: MySQL Database: osTicket, set a username and password. Click Install Now! to complete the installation process.
   
 
 
