@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install a few separate programs from the installation files
 - Create a folder for the PHP files directly into the C drive.
 - Configure Settings in My SQL
-- Install OSticket
+- Install osTicket
 
 <h2>Installation Steps</h2>
 
@@ -61,36 +61,19 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket” ***This s
   
 - Navigate to IIS and go to the Sites section. Locate the Default site and select osTicket.
 
--Next, open PHP Manager by double-clicking on it. Within PHP Manager, find the option to enable or disable an extension and select it. Then, enable the following extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. Once you've made these changes, refresh the osTicket site in your browser to observe the effects.
+ -Next, open PHP Manager by double-clicking on it. Within PHP Manager, find the option to enable or disable an extension and select it. Then, enable the following extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. Once you've made these changes, refresh the osTicket site in your browser to observe the effects.
 
--Now, you need to rename the configuration file for osTicket. Locate the file ost-sampleconfig.php in C:\inetpub\wwwroot\osTicket\include\ and rename it to ost-config.php.
+ -Now, you need to rename the configuration file for osTicket. Locate the file ost-sampleconfig.php in C:\inetpub\wwwroot\osTicket\include\ and rename it to ost-config.php.
 
--After renaming the file, update its permissions. Disable inheritance, remove all existing permissions, and then assign new permissions to Everyone, granting full access.
+ -After renaming the file, update its permissions. Disable inheritance, remove all existing permissions, and then assign new permissions to Everyone, granting full access.
 
--Continue with the osTicket setup in the browser by clicking Continue. At this stage, name your helpdesk and provide a default email address that will receive emails from customers.
+ -Continue with the osTicket setup in the browser by clicking Continue. At this stage, name your helpdesk and provide a default email address that will receive emails from customers.
 
--Next, install HeidiSQL from the “osTicket-Installation-Files” folder. Open HeidiSQL and create a new session using your preferred credentials. After successfully connecting to the session, create a new database named osTicket.
+ -Next, install HeidiSQL from the osTicket files folder. Open HeidiSQL and create a new session using your preferred credentials. After successfully connecting to the session, create a new database named osTicket.
 
--Finally, return to the osTicket browser setup. Enter the database information: MySQL Database: osTicket, set a username and password. Click Install Now! to complete the installation process.
+ -Finally, return to the osTicket browser setup. Enter the database information: MySQL Database: osTicket, set a username and password. Click Install Now. Wait for the installation process to complete.
   
 
 
 
-</p>
-<br />
 
-<p>
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
